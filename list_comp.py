@@ -6,7 +6,7 @@ double = [x * 2 for x in my_list]
 # New list with all the positive numbers doubled
 double_positive = [x * 2 for x in my_list if x >= 0]
 
-words = [ 'hello', 'world', 'python', 'kittens']
+words = ['hello', 'world', 'python', 'kittens']
 # Make new list of all strings in uppercase.
 uppercase = [w.upper() for w in words]
 

@@ -30,8 +30,8 @@ results = cur.execute("select * from phones")
 for row in results:
     print(row)
 
-cur.execute('drop table phones')  # Delete table
-
+# cur.execute('drop table phones')  # Delete table
+#
 db.commit()  # Ask the database to save changes
 
 db.close()
